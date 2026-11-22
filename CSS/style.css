@@ -1,0 +1,438 @@
+.style::after,
+.style::before {
+    content: "";
+    height: 3px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 60px
+}
+
+.contact-us .inner,
+.featured-cards .avatar {
+    transition: transform .5s
+}
+
+:root {
+    --commenColor: #8121FD;
+    --bg-pr: #DDD6FF;
+    --commen-orange: #E17100;
+    --commen-light-green: #DBFCE7
+}
+
+.bg-light-green {
+    background-color: var(--commen-light-green)
+}
+
+img {
+    width: 100%
+}
+
+span {
+    display: inline-block
+}
+
+body {
+    padding-top: 78px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.commen-color,
+.navbar-nav .nav-link.active {
+    color: var(--commenColor)
+}
+
+.commen-bg {
+    background-color: var(--commenColor)
+}
+
+.orange-bg {
+    background-color: var(--commen-orange)
+}
+
+.invest div.icon,
+.yellow-bg {
+    background-color: #fef9c2
+}
+
+.com div.icon {
+    background-color: #e0e7ff
+}
+
+.orange-text {
+    color: var(--commen-orange)
+}
+
+.hero-section {
+    background-image: linear-gradient(rgb(113, 66, 165, .8)), url(../Images/hero-bg-img.png);
+    background: linear-gradient();
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+.bg-pr {
+    background-color: var(--bg-pr)
+}
+
+.max-w {
+    max-width: 960px
+}
+
+.style {
+    position: relative;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: #f6f4ff;
+    padding: 10px;
+    border: 1px solid #8021fd5c
+}
+
+.style::before {
+    background: linear-gradient(to left, #8121fd, #fff);
+    left: -80px
+}
+
+.style::after {
+    background: linear-gradient(to right, #8121fd, #fff);
+    right: -80px
+}
+
+.main-lin {
+    color: linear-gradient(to right, var(--commenColor), orange)
+}
+
+.w-33 {
+    width: 33.333%
+}
+
+.card {
+    border: none
+}
+
+.icon,
+.icon-2 {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 6px
+}
+
+.title.badge {
+    left: 20px;
+    top: 20px
+}
+
+.heart.badge {
+    top: 20px;
+    right: 20px
+}
+
+.cam.badge {
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, .5)
+}
+
+.badge-bg {
+    background-color: #e9eceb
+}
+
+.featured-cards .avatar {
+    width: 100%;
+    height: 250px;
+    object-fit: cover
+}
+
+.featured-cards .card:hover .avatar {
+    transform: scale(1.1)
+}
+
+.bg-sections,
+.featured-cards,
+.help-center {
+    background-color: #f9fafb
+}
+
+.page-title {
+    background-image: linear-gradient(to right, var(--commenColor), 85%, orange);
+    background-clip: text;
+    color: transparent
+}
+
+.icon {
+    background-color: #ddd6ff
+}
+
+.icon-2 {
+    background-color: #dbfce7;
+    color: green
+}
+
+figcaption.con-1 {
+    bottom: -20px;
+    left: -40px
+}
+
+.w-50px {
+    width: 80px
+}
+
+figcaption.con-2 {
+    bottom: -40px;
+    right: 44%
+}
+
+.nav-tabs .nav-item.show .nav-link:focus,
+.nav-tabs .nav-link.active:focus {
+    background-color: #f5f3ff
+}
+
+.client-stories {
+    background-color: #4f1797
+}
+
+#carouselExampleIndicators .carousel-inner {
+    padding-bottom: 3.5rem
+}
+
+#carouselExampleIndicators .carousel-item {
+    transition: transform .65s cubic-bezier(.22, 1, .36, 1)
+}
+
+#carouselExampleIndicators .carousel-indicators {
+    gap: 10px;
+    margin-bottom: .5rem
+}
+
+#carouselExampleIndicators .carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: .35;
+    border: none;
+    margin: 0;
+    transition: opacity .3s, transform .3s
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+    opacity: 1;
+    transform: scale(1.15)
+}
+
+#carouselExampleIndicators .carousel-control-next,
+#carouselExampleIndicators .carousel-control-prev {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(4px);
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .9;
+    transition: background-color .25s, transform .25s, opacity .25s
+}
+
+#carouselExampleIndicators .carousel-control-prev {
+    left: 24px
+}
+
+#carouselExampleIndicators .carousel-control-next {
+    right: 24px
+}
+
+#carouselExampleIndicators .carousel-control-next:hover,
+#carouselExampleIndicators .carousel-control-prev:hover {
+    background-color: rgba(255, 255, 255, .32);
+    transform: translateY(-50%) scale(1.06);
+    opacity: 1
+}
+
+#carouselExampleIndicators .carousel-control-next-icon,
+#carouselExampleIndicators .carousel-control-prev-icon {
+    width: 1.1rem;
+    height: 1.1rem
+}
+
+.contact-us .inner:hover {
+    transform: translateY(-10px)
+}
+
+.contact-us .inner .card {
+    height: 100%;
+    padding: 2rem;
+    border: 1px solid #e5e5e6;
+    border-radius: 1.25rem;
+    background-color: #fff;
+    transition: border-color .5s
+}
+
+.contact-us .inner:hover .card {
+    border-color: var(--commenColor)
+}
+
+.contact-us .card .icon {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    border-radius: 16px;
+    color: #fff;
+    background-color: var(--commenColor)
+}
+
+.contact-us .card .icon-call {
+    background: linear-gradient(135deg, #7c3aed, #9b27f5)
+}
+
+.contact-us .card .icon-mail {
+    background: linear-gradient(135deg, #a21cf5, #c026d3)
+}
+
+.contact-us .card .icon-visit {
+    background: linear-gradient(135deg, #d946ef, #fb923c)
+}
+
+.contact-us .card .icon-chat {
+    background: linear-gradient(135deg, #6366f1, #4f46e5)
+}
+
+.contact-us .card .body h3 {
+    margin-top: 1.5rem !important
+}
+
+.contact-us .card .body span {
+    margin-top: .5rem
+}
+
+.contact-us .card .foot {
+    margin-top: 1rem
+}
+
+.contact-us .card .foot span {
+    font-size: 1.1rem
+}
+
+.contact-us .card .link-visit {
+    color: #d6006e
+}
+
+.contact-us .card .link-chat {
+    color: #4f46e5
+}
+
+.contact-us .inner:hover i {
+    transition: transform .5s;
+    transform: scale(1.1, 1.1)
+}
+
+.gray-bg {
+    background-color: #f7f8f9
+}
+
+.contact-us .inneer i {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 16px
+}
+
+.contact-form {
+    padding: 2rem;
+    border: 1px solid #e5e5e6;
+    border-radius: 1.25rem;
+    background-color: #fff
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+    padding: .7rem 1rem;
+    font-size: .9rem;
+    border: 1px solid #e5e7eb;
+    border-radius: .75rem;
+    background-color: #f9fafb
+}
+
+.contact-form textarea.form-control {
+    resize: none
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+    background-color: #fff;
+    border-color: var(--commenColor);
+    box-shadow: 0 0 0 .25rem rgba(129, 33, 253, .25)
+}
+
+.contact-form .agree-box {
+    padding: .9rem 1rem;
+    border-radius: .75rem;
+    background-color: #f4f2ff
+}
+
+.contact-form .form-check-input:checked {
+    background-color: var(--commenColor);
+    border-color: var(--commenColor)
+}
+
+.contact-form .form-check-input:focus {
+    border-color: var(--commenColor);
+    box-shadow: 0 0 0 .25rem rgba(129, 33, 253, .25)
+}
+
+.contact-form .send-btn {
+    background: linear-gradient(to right, #7c3aed, #9b10ff);
+    transition: opacity .3s
+}
+
+.contact-form .send-btn:hover {
+    opacity: .9
+}
+
+.footer {
+    background: linear-gradient(to right, #4f1797, #5c1a93)
+}
+
+.footer .copyright {
+    color: #e9d5ff
+}
+
+.footer .social a {
+    width: 50px;
+    height: 50px;
+    transition: background-color .3s, transform .3s
+}
+
+.footer .social a:hover {
+    background-color: rgba(255, 255, 255, .25) !important;
+    transform: translateY(-3px)
+}
+
+.footer .bottom {
+    border-top: 1px solid rgba(255, 255, 255, .1)
+}
+
+.footer .made-with {
+    color: #c4a3ff
+}
+
+.navbar-nav .nav-link.show {
+    color: var(--commenColor);
+    text-decoration: underline;
+    text-underline-offset: 0.375em
+}
+
+.navbar .dropdown-menu,
+.navbar-collapse {
+    max-height: calc(100vh - 78px);
+    overflow-y: auto
+}
